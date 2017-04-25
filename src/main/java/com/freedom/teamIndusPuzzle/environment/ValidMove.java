@@ -1,6 +1,8 @@
 package com.freedom.teamIndusPuzzle.environment;
 
 import java.awt.*;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * Created by nishant.kyal on 3/21/2017.
@@ -32,4 +34,6 @@ public enum ValidMove {
     public Point[] getMove() {
         return move;
     }
+
+    public static ArrayList<ValidMove> ORDERED_MOVES = new ArrayList<ValidMove>(Arrays.asList(ValidMove.values()));
 }

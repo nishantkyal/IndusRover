@@ -1,11 +1,9 @@
 package com.freedom.teamIndusPuzzle.rover;
 
-import com.freedom.teamIndusPuzzle.environment.Environment;
+import com.freedom.teamIndusPuzzle.entities.Move;
 import com.freedom.teamIndusPuzzle.environment.ValidMove;
 
 import java.awt.*;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by nishant.kyal on 3/24/2017.
